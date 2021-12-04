@@ -24,7 +24,7 @@ SECRET_KEY = '1)9rwo)3c*5&dzv5q)mdn_2z%u22r!qqn7tci2vm5zx-+9$rak'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-
+static_root = os.path.join(BASE-DIR,'static/images')
 ALLOWED_HOSTS = ['reneirakoze.herokuapp.com','127.0.0.1']
 
 
